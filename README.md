@@ -59,4 +59,7 @@ Verificar:
 
       chmod +x js_forensics.py
 
-      python js_forensics.py archivo.js --output informe.html
+      python js_forensics.py archivo.js --output report_final.html
+
+![image](https://github.com/user-attachments/assets/5a3ce6aa-0841-420a-b5c8-42354033c9e8)
+
