@@ -55,11 +55,21 @@ Verificar:
 
 🛡️ Modo de uso
 
-  Obtendrás un resumen detallado con el --output
-
       chmod +x js_forensics.py
 
       python js_forensics.py archivo.js --output report_final.html
 
 ![image](https://github.com/user-attachments/assets/5a3ce6aa-0841-420a-b5c8-42354033c9e8)
 
+🛡️ Resultados
+
+![image](https://github.com/user-attachments/assets/7347947b-1b15-4da4-92ac-2eec3d7c49c3)
+
+🛡️ Recomendaciones para este caso
+
+Inspeccionar el código manualmente, buscar patrones (eval(atob("BASE64_ENCODED_STRING"))), dosofuscar automáticamente (javascript-deobfuscator archivo.js --output archivo_deobfuscated.js), buscar IOCs (URLs sospechosas: (http|https)://[^\s]+, Llamadas a eval()/Function(), Cadenas en hex: \\x[0-9a-fA-F]{2}).
+
+Ejemplo típico de código malicioso
+
+      const payload = atob("YWxlcnQoJ1hTUyBEZXRlY3RlZCEnKQ==");
+      eval(payload);  // Decodifica y ejecuta "alert('XSS Detected!')"
