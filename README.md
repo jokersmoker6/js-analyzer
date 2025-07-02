@@ -26,8 +26,8 @@
 
 🛡️ Riquisitos
 
-  pip install pycryptodome jinja2
-  npm install -g javascript-deobfuscator  # Para desofuscación
+    pip install pycryptodome jinja2
+    npm install -g javascript-deobfuscator  # Para desofuscación
 
 
 🛡️ Modo de uso
