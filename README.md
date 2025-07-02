@@ -2,32 +2,32 @@
 
 1.	Detección de Ofuscación:
    
-  o	Identifica código empaquetado (eval, p,a,c,k,e,d)
-  o	Detecta codificación Hex/Base64
-  o	Intenta desofuscar automáticamente
+- Identifica código empaquetado (eval, p,a,c,k,e,d)
+- Detecta codificación Hex/Base64
+- Intenta desofuscar automáticamente
 
 3.	Extracción de Secretos:
    
-  o	50+ patrones para API keys, JWTs, credenciales
-  o	Claves criptográficas (AES, DES)
-  o	Credenciales de bases de datos
+- 50+ patrones para API keys, JWTs, credenciales
+- Claves criptográficas (AES, DES)
+- Credenciales de bases de datos
 
 5.	Análisis Criptográfico:
    
-  o	Detecta uso de CryptoJS, WebCrypto, forge
-  o	Identifica claves e vectores de inicialización
-  o	Revisa modos de operación (CBC, GCM, etc.)
+- Detecta uso de CryptoJS, WebCrypto, forge
+- Identifica claves e vectores de inicialización
+- Revisa modos de operación (CBC, GCM, etc.)
 
 7.	Análisis de Red:
    
-  o	Extrae endpoints API
-  o	Identifica headers de autenticación
+- Extrae endpoints API
+- Identifica headers de autenticación
 
 9.	Informe Profesional:
     
-  o	Reporte HTML con sintaxis resaltada
-  o	Clasificación por severidad
-  o	Contexto de los hallazgos
+- Reporte HTML con sintaxis resaltada
+- Clasificación por severidad
+- Contexto de los hallazgos
 
 🛡️ Riquisitos
 
