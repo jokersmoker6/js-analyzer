@@ -6,24 +6,24 @@
 - Detecta codificación Hex/Base64
 - Intenta desofuscar automáticamente
 
-3.	Extracción de Secretos:
+2.	Extracción de Secretos:
    
 - 50+ patrones para API keys, JWTs, credenciales
 - Claves criptográficas (AES, DES)
 - Credenciales de bases de datos
 
-5.	Análisis Criptográfico:
+3.	Análisis Criptográfico:
    
 - Detecta uso de CryptoJS, WebCrypto, forge
 - Identifica claves e vectores de inicialización
 - Revisa modos de operación (CBC, GCM, etc.)
 
-7.	Análisis de Red:
+4.	Análisis de Red:
    
 - Extrae endpoints API
 - Identifica headers de autenticación
 
-9.	Informe Profesional:
+5.	Informe Profesional:
     
 - Reporte HTML con sintaxis resaltada
 - Clasificación por severidad
