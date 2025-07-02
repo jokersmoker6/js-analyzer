@@ -67,7 +67,8 @@ Verificar:
 
 🛡️ Recomendaciones para este caso
 
-Inspeccionar el código manualmente, buscar patrones (eval(atob("BASE64_ENCODED_STRING"))), dosofuscar automáticamente (javascript-deobfuscator archivo.js --output archivo_deobfuscated.js), buscar IOCs (URLs sospechosas: (http|https)://[^\s]+, Llamadas a eval()/Function(), Cadenas en hex: \\x[0-9a-fA-F]{2}).
+Inspeccionar el código manualmente, buscar patrones (eval(atob("BASE64_ENCODED_STRING"))), dosofuscar automáticamente (javascript-deobfuscator -i archivo.js -o archivo_deobfuscated.js --he --su --tp
+), buscar IOCs (URLs sospechosas: (http|https)://[^\s]+, Llamadas a eval()/Function(), Cadenas en hex: \\x[0-9a-fA-F]{2}).
 
 Ejemplo típico de código malicioso
 
