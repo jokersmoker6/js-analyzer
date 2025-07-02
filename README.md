@@ -31,8 +31,17 @@
 
 🛡️ Riquisitos
 
-    pip install pycryptodome jinja2
-    npm install -g javascript-deobfuscator  # Para desofuscación
+instalación global pycryptodome:
+
+    sudo pip install pycryptodome --break-system-packages # Funciones criptográficas
+    
+Verificar:
+      
+      python3 -c "from Crypto.Cipher import AES; print('OK')"
+
+instalación deobfuscator:
+
+      npm install -g javascript-deobfuscator  # Para desofuscación
 
 
 🛡️ Modo de uso
