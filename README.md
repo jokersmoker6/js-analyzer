@@ -39,4 +39,6 @@
 
   Obtendrás un resumen detallado con el --output
 
-    python js_forensics.py archivo.js --output informe.html
+      chmod +x js_forensics.py
+
+      python js_forensics.py archivo.js --output informe.html
