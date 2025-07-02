@@ -31,6 +31,11 @@
 
 🛡️ Riquisitos
 
+Instalar Node.js (si no lo tienes):
+
+      curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+      sudo apt-get install -y nodejs
+
 instalación global pycryptodome:
 
     sudo pip install pycryptodome --break-system-packages # Funciones criptográficas
@@ -39,9 +44,13 @@ Verificar:
       
       python3 -c "from Crypto.Cipher import AES; print('OK')"
 
-instalación deobfuscator:
+instalación global deobfuscator:
 
-      npm install -g javascript-deobfuscator  # Para desofuscación
+      sudo npm install -g javascript-deobfuscator  # Para desofuscación
+
+Verificar:
+
+      javascript-deobfuscator --version
 
 
 🛡️ Modo de uso
