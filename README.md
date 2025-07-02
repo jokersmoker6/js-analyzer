@@ -1,4 +1,4 @@
-Este script se basa en poder realizar un análisis estático hacia archivos .js enfocado en:
+🛡️ Este script se basa en poder realizar un análisis estático hacia archivos .js enfocado en:
 
 1.	Detección de Ofuscación:
   o	Identifica código empaquetado (eval, p,a,c,k,e,d)
@@ -24,14 +24,14 @@ Este script se basa en poder realizar un análisis estático hacia archivos .js 
   o	Clasificación por severidad
   o	Contexto de los hallazgos
 
-Riquisitos
+🛡️ Riquisitos
 
   pip install pycryptodome jinja2
   npm install -g javascript-deobfuscator  # Para desofuscación
 
 
-Modo de uso
+🛡️ Modo de uso
 
-Obtendrás un resumen detallado con el --output
+  Obtendrás un resumen detallado con el --output
 
-  python js_forensics.py archivo.js --output informe.html
+    python js_forensics.py archivo.js --output informe.html
